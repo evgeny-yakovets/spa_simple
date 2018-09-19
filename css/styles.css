@@ -1,0 +1,43 @@
+#div {
+    border-color: orange;
+    border-style: solid;
+    border-radius: 1px;
+
+}
+
+body{
+    min-width: 400px;
+}
+
+.main-container{
+
+}
+
+.default-width{
+    width: 100%;
+}
+
+.content-container{
+    border-color: black;
+    border-style: dashed;
+    border-radius: 1px;
+    height: 96vh;
+    min-height: fit-content;
+}
+
+.article-container{
+    border-bottom-color: currentColor;
+    border-bottom-style: ridge;
+}
+
+.article-container.hide-text .article-text{
+    display: none;
+}
+
+.article-container.show-text .article-text{
+    display: block;
+}
+
+.add-text.button{
+
+}
